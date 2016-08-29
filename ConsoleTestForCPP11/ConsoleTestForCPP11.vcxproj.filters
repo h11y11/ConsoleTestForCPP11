@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\std容器相关">
+      <UniqueIdentifier>{a64518ec-9295-48c4-bdbf-74abf0731eaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\其他算法相关">
+      <UniqueIdentifier>{55a44c08-c013-4d1e-bd4f-42d32ad9e062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类测试">
+      <UniqueIdentifier>{545120dc-6d3a-48fb-94c6-039a0dfa31a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\多线程">
+      <UniqueIdentifier>{6057ed01-4c15-4a95-ba4b-fd365d27dc2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\正则表达式">
+      <UniqueIdentifier>{d825fa06-df6a-4ad0-a79b-e2b2192ac9ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\leetcode">
+      <UniqueIdentifier>{578ce56c-587d-4f7c-b6b2-710ae5325429}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VectorExample.h">
+      <Filter>源文件\std容器相关</Filter>
+    </ClInclude>
+    <ClInclude Include="MapExample.h">
+      <Filter>源文件\std容器相关</Filter>
+    </ClInclude>
+    <ClInclude Include="StdStringExample.h">
+      <Filter>源文件\std容器相关</Filter>
+    </ClInclude>
+    <ClInclude Include="Parent.h">
+      <Filter>源文件\类测试</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadTester.h">
+      <Filter>源文件\多线程</Filter>
+    </ClInclude>
+    <ClInclude Include="RegexTester.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PrjPoint.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleTestForCPP11.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VectorExample.cpp">
+      <Filter>源文件\std容器相关</Filter>
+    </ClCompile>
+    <ClCompile Include="MapExample.cpp">
+      <Filter>源文件\std容器相关</Filter>
+    </ClCompile>
+    <ClCompile Include="StdStringExample.cpp">
+      <Filter>源文件\std容器相关</Filter>
+    </ClCompile>
+    <ClCompile Include="Parent.cpp">
+      <Filter>源文件\类测试</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadTester.cpp">
+      <Filter>源文件\多线程</Filter>
+    </ClCompile>
+    <ClCompile Include="RegexTester.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PrjPoint.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
