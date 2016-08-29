@@ -7,6 +7,7 @@
 #include <math.h>
 #include "PrjPoint.h"
 #include <algorithm>
+#include "MyAlgorithm\AboutSort.h"
 //#include <xfunctional>
 // #include <iostream>
 // #include "VectorExample.h"
@@ -73,7 +74,12 @@ using namespace std;
 int main()
 {
 
-
+    int a[] = { 4, 6, 5, 7, 1, 3, 9 };
+    int n = 7;
+    k_thElement(a, a + 3, a + n);
+    for (int i = 0; i < n; i++)
+        cout << a[i] << " ";
+    cout << endl;
 
     system("pause");
     return 0;

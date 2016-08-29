@@ -148,6 +148,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MapExample.h" />
+    <ClInclude Include="MyAlgorithm\AboutSort.h" />
     <ClInclude Include="Parent.h" />
     <ClInclude Include="PrjPoint.h" />
     <ClInclude Include="RegexTester.h" />
@@ -160,6 +161,9 @@
   <ItemGroup>
     <ClCompile Include="ConsoleTestForCPP11.cpp" />
     <ClCompile Include="MapExample.cpp" />
+    <ClCompile Include="MyAlgorithm\AboutSort.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="Parent.cpp" />
     <ClCompile Include="PrjPoint.cpp" />
     <ClCompile Include="RegexTester.cpp" />
